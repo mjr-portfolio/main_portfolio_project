@@ -63,6 +63,9 @@ This project was structured around answering real-world stakeholder questions th
 
 ---
 
+## 🔍 SQL Snapshot: Campaign Performance Query
+This SQL block aggregates sales, budget, and a simulated conversion rate by campaign — used to drive Power BI KPIs.
+
 > 📸 Example: SQL Query for Campaign Profit, Conversion Rate & Total Revenue
 > ![SQL Query](images/sql-campaign-performance.png)
 
@@ -94,6 +97,7 @@ Used to calculate product-level revenue across 5 possible product ID + case volu
 )
 ```
 
+#### 📈 Excel Prototypes for Product, Campaign & Segment Analysis
 > 📸 Example: Excel Pivot Table Used to Prototype Product, Campaign & Segment Performance
 > ![Excel Prototype](images/excel-pivot-tables.png)
 
@@ -137,6 +141,7 @@ RETURN
     )
 ```
 
+#### 📊 Power BI Dashboard Overview
 > 📸 Example: Final Dashboard Overview  
 > ![Power BI Dashboard](images/main-project-dashboard.png)
 
