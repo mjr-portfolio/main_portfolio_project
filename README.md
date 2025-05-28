@@ -63,6 +63,11 @@ This project was structured around answering real-world stakeholder questions th
 
 ---
 
+> 📸 Example: SQL Query for Campaign Profit, Conversion Rate & Total Revenue
+> ![SQL Query](images/sql-campaign-performance.png)
+
+---
+
 ## 📊 Excel File Role
 
 This Excel workbook was used as a **stepping stone between SQL and Power BI** — a prototype environment to validate the data, test logic, and explore trends with business users.
@@ -72,8 +77,22 @@ This Excel workbook was used as a **stepping stone between SQL and Power BI** �
 - Based on review:
   - KPIs were revised to include **conversion rates and profit** per campaign
   - Charts were redesigned to show **rolling revenue** and **channel effectiveness**
-  
+
 This reflects a real analyst workflow where Excel plays a critical role in aligning stakeholders before formal dashboard production.
+
+### 🧠 Example Excel Formula
+
+Used to calculate product-level revenue across 5 possible product ID + case volume pairings in a single row:
+
+```excel
+=SUM(
+  IF(E2>0, XLOOKUP(E2, Products!$A:$A, Products!$D:$D) * F2, 0),
+  IF(G2>0, XLOOKUP(G2, Products!$A:$A, Products!$D:$D) * H2, 0),
+  IF(I2>0, XLOOKUP(I2, Products!$A:$A, Products!$D:$D) * J2, 0),
+  IF(K2>0, XLOOKUP(K2, Products!$A:$A, Products!$D:$D) * L2, 0),
+  IF(M2>0, XLOOKUP(M2, Products!$A:$A, Products!$D:$D) * N2, 0)
+)
+```
 
 > 📸 Example: Excel Pivot Table Used to Prototype Product, Campaign & Segment Performance
 > ![Excel Prototype](images/excel-pivot-tables.png)
@@ -92,6 +111,31 @@ The final Power BI dashboard includes:
 - Conversion & ROI approximations per campaign
 
 All DAX measures were built to be **context-sensitive** and respond dynamically to filters.
+
+### 🧮 Example DAX Measure
+
+DAX used to calculate purchase conversion rate by campaign, while respecting slicer context:
+
+```dax
+Purchase Conversion Rate = 
+VAR SelectedCampaigns =
+    CALCULATETABLE(
+        VALUES(Campaigns[campaign_id]),
+        Purchases
+    )
+RETURN
+    DIVIDE(
+        CALCULATE(
+            COUNTROWS(Interactions),
+            FILTER(
+                Interactions,
+                Interactions[Interaction_type] = "Purchased"
+            ),
+            TREATAS(SelectedCampaigns, Interactions[campaign_id])
+        ),
+        COUNTROWS(Interactions)
+    )
+```
 
 > 📸 Example: Final Dashboard Overview  
 > ![Power BI Dashboard](images/main-project-dashboard.png)
