@@ -75,8 +75,8 @@ This Excel workbook was used as a **stepping stone between SQL and Power BI** �
   
 This reflects a real analyst workflow where Excel plays a critical role in aligning stakeholders before formal dashboard production.
 
-> 📸 Example: Excel Pivot Table Used to Prototype Segment Performance  
-> ![Excel Prototype](images/excel_pivot_segment.png)
+> 📸 Example: Excel Pivot Table Used to Prototype Product, Campaign & Segment Performance
+> ![Excel Prototype](images/excel-pivot-tables.png)
 
 ---
 
@@ -94,7 +94,7 @@ The final Power BI dashboard includes:
 All DAX measures were built to be **context-sensitive** and respond dynamically to filters.
 
 > 📸 Example: Final Dashboard Overview  
-> ![Power BI Dashboard](images/dashboard_screenshot.png)
+> ![Power BI Dashboard](images/main-project-dashboard.png)
 
 ---
 
