@@ -11,6 +11,16 @@
 
 This end-to-end project simulates a real-world analytics workflow for a synthetic medical supplier. It focuses on analyzing customer behavior, campaign performance, and product sales using SQL (data cleaning & exploration), Excel (prototype KPIs), and Power BI (final dashboard).
 
+**Dataset:**  
+The project uses a synthetic relational database with five core tables: `Customers`, `Campaigns`, `Products`, `Purchases`, and `Interactions`.  
+I created the dataset from scratch using CSVs and imported it into MySQL Workbench. This approach allowed full control over structure and relationships, since most public datasets lacked enough rows, multi-table join logic or realistic business structure.  
+Some quirks in the dataset were intentional or preserved to reflect the kinds of inconsistencies you often encounter in real-world data.
+
+**How to Use:**  
+- Open the `.pbix` file in Power BI Desktop to explore the interactive dashboard  
+- Run `.sql` scripts in MySQL Workbench for data cleaning and analysis  
+- Use the `.xlsx` file to view prototype KPIs and pivot table insights
+
 ---
 
 ## 🎯 Business Objective
