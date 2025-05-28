@@ -15,7 +15,7 @@ This end-to-end project simulates a real-world analytics workflow for a syntheti
 
 ## 🎯 Business Objective
 
-> The business wanted to understand how different campaigns, customers, and products contributed to overall revenue and profitability. Stakeholders needed clear insights to inform future campaign planning, customer targeting, and product stocking decisions.
+The business wanted to understand how different campaigns, customers, and products contributed to overall revenue and profitability. Stakeholders needed clear insights to inform future campaign planning, customer targeting, and product stocking decisions.
 
 ---
 
@@ -110,14 +110,14 @@ All DAX measures were built to be **context-sensitive** and respond dynamically 
 
 ## ⚠️ Known Limitation
 
-> The Power BI dashboard contains KPI cards for **Customers** and **Countries** that are not affected by the **Year slicer**.  
->
-> This is due to how the data model was initially structured, where `Customers` isn't directly linked to time-based facts.  
-> In a real-world scenario, this would be resolved by:
-> - Creating a proper **date dimension**
-> - Rebuilding KPIs using **fact-based filtering**  
->
-> Left unresolved due to project scope constraints, but would be prioritized in a production setting.
+The Power BI dashboard contains KPI cards for **Customers** and **Countries** that are not affected by the **Year slicer**.  
+
+This is due to how the data model was initially structured, where `Customers` isn't directly linked to time-based facts.  
+In a real-world scenario, this would be resolved by:
+ - Creating a proper **date dimension**
+ - Rebuilding KPIs using **fact-based filtering**  
+
+Left unresolved due to project scope constraints, but would be prioritized in a production setting.
 
 ---
 
