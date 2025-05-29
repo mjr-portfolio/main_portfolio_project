@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-This end-to-end project simulates a real-world analytics workflow for a synthetic medical supplier. It focuses on analysing customer behavior, campaign performance, and product sales using SQL (data cleaning & exploration), Excel (prototype KPIs), and Power BI (final dashboard).
+This end-to-end project simulates a real-world analytics workflow for a synthetic medical supplier. It focuses on analysing customer behaviour, campaign performance, and product sales using SQL (data cleaning & exploration), Excel (prototype KPIs), and Power BI (final dashboard).
 
 **Dataset:**  
 The project uses a synthetic relational database with five core tables: `Customers`, `Campaigns`, `Products`, `Purchases`, and `Interactions`.  
