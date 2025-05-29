@@ -193,4 +193,3 @@ Left unresolved due to project scope constraints, but would be prioritized in a 
 📧 mitchellrogers.uk+github@gmail.com  
 🔗 [Back to Portfolio](https://mjr-portfolio.github.io/mjr_analyst_portfolio.github.io/)
 
-🔗 [Back to Portfolio](https://mjr-portfolio.github.io/mjr_analyst_portfolio.github.io/)
