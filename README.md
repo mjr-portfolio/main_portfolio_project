@@ -9,7 +9,7 @@
 
 ## 📌 Project Overview
 
-This end-to-end project simulates a real-world analytics workflow for a synthetic medical supplier. It focuses on analyzing customer behavior, campaign performance, and product sales using SQL (data cleaning & exploration), Excel (prototype KPIs), and Power BI (final dashboard).
+This end-to-end project simulates a real-world analytics workflow for a synthetic medical supplier. It focuses on analysing customer behavior, campaign performance, and product sales using SQL (data cleaning & exploration), Excel (prototype KPIs), and Power BI (final dashboard).
 
 **Dataset:**  
 The project uses a synthetic relational database with five core tables: `Customers`, `Campaigns`, `Products`, `Purchases`, and `Interactions`.  
@@ -56,7 +56,7 @@ This project was structured around answering real-world stakeholder questions th
 | Step | Tool | Description |
 |------|------|-------------|
 | 🧹 **1. SQL Data Cleaning** | MySQL | Created staging tables, removed duplicates, standardized text, handled nulls, set up PKs/FKs |
-| 🔎 **2. SQL Exploration** | MySQL | Used CTEs, joins, window functions to analyze campaign performance, customer spend, product trends |
+| 🔎 **2. SQL Exploration** | MySQL | Used CTEs, joins, window functions to analyse campaign performance, customer spend, product trends |
 | 📊 **3. Excel Prototyping** | Excel | Built pivot tables/charts to validate metrics and preview insights for stakeholder feedback |
 | 📈 **4. Dashboarding** | Power BI | Built a final interactive dashboard with KPIs, dynamic filters, and insightful visualizations |
 
@@ -85,7 +85,7 @@ This SQL block aggregates sales, budget, and a simulated conversion rate by camp
 
 This Excel workbook was used as a **stepping stone between SQL and Power BI** — a prototype environment to validate the data, test logic, and explore trends with business users.
 
-- Pivot tables analyzed product revenue, campaign interactions, and customer spend by segment
+- Pivot tables analysed product revenue, campaign interactions, and customer spend by segment
 - Early visuals sparked questions and feedback from hypothetical stakeholders
 - Based on review:
   - KPIs were revised to include **conversion rates and profit** per campaign
