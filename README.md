@@ -190,8 +190,7 @@ Left unresolved due to project scope constraints, but would be prioritized in a 
 ---
 
 ## 📬 Contact
-
-Feel free to reach out with any questions or feedback:  
-📧 mitchellrogers.uk@gmail.com
+📧 mitchellrogers.uk+github@gmail.com  
+🔗 [Back to Portfolio](https://mjr-portfolio.github.io/mjr_analyst_portfolio.github.io/)
 
 🔗 [Back to Portfolio](https://mjr-portfolio.github.io/mjr_analyst_portfolio.github.io/)
