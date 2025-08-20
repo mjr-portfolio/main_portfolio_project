@@ -47,7 +47,7 @@ This project was structured around answering real-world stakeholder questions th
 - Which **product categories perform best within high-performing campaigns**?
 - Can we approximate **ROI or profit per campaign**, and tie it to conversion rates?
 
-> These questions were answered across SQL, Excel, and Power BI — with the final dashboard summarizing key metrics and trends in an interactive format.
+> These questions were answered across SQL, Excel, and Power BI - with the final dashboard summarizing key metrics and trends in an interactive format.
 
 ---
 
@@ -74,7 +74,7 @@ This project was structured around answering real-world stakeholder questions th
 ---
 
 ## 🔍 SQL Snapshot: Campaign Performance Query
-This SQL block aggregates sales, budget, and a simulated conversion rate by campaign — used to drive Power BI KPIs.
+This SQL block aggregates sales, budget, and a simulated conversion rate by campaign - used to drive Power BI KPIs.
 
 > 📸 Example: SQL Query for Campaign Profit, Conversion Rate & Total Revenue
 > ![SQL Query](images/sql-campaign-performance.png)
@@ -83,7 +83,7 @@ This SQL block aggregates sales, budget, and a simulated conversion rate by camp
 
 ## 📊 Excel File Role
 
-This Excel workbook was used as a **stepping stone between SQL and Power BI** — a prototype environment to validate the data, test logic, and explore trends with business users.
+This Excel workbook was used as a **stepping stone between SQL and Power BI** - a prototype environment to validate the data, test logic, and explore trends with business users.
 
 - Pivot tables analysed product revenue, campaign interactions, and customer spend by segment
 - Early visuals sparked questions and feedback from hypothetical stakeholders
