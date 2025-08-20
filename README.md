@@ -1,4 +1,4 @@
-# 📦 Medical Sales Analytics — Full Project (SQL → Excel → Power BI)
+# 📦 Medical Sales Analytics - Full Project (SQL → Excel → Power BI)
 
 ![MySQL](https://img.shields.io/badge/SQL-MySQL-informational?style=flat&logo=mysql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-Prototyping-217346?style=flat&logo=microsoft-excel&logoColor=white)
